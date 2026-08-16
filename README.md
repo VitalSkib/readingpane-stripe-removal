@@ -1,4 +1,3 @@
-````markdown
 # Reading Pane Stripe Removal
 
 A **Windhawk mod** that provides a temporary workaround for a Windows 11 Insider bug in File Explorer's Reading/Preview Pane.
