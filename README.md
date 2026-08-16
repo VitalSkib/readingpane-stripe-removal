@@ -1,15 +1,14 @@
 # Reading Pane Stripe Removal
 
 A **Windhawk mod** that provides a temporary workaround for a Windows 11 Insider bug in File Explorer's Reading/Preview Pane.
+
 [Windhawk](https://windhawk.net/)
 
 ## The problem
 
 On some Windows 11 Insider builds, selecting an image or video in File Explorer can produce a horizontal ~47 px stripe across the Reading/Preview Pane.
 The stripe is painted with the same color as the pane background and visually cuts the preview into two parts.
-
 **This bug is not present on all Windows builds.**
-
 The issue was observed and tested on:
 
 - **Windows 11 26H2 Insider — build 26300.9032**
