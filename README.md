@@ -1,6 +1,8 @@
+````markdown
 # Reading Pane Stripe Removal
 
-A temporary Windhawk workaround for a Windows 11 Insider bug in File Explorer's Reading/Preview Pane.
+A **Windhawk mod** that provides a temporary workaround for a Windows 11 Insider bug in File Explorer's Reading/Preview Pane.
+[Windhawk](https://windhawk.net/)
 
 ## The problem
 
@@ -18,11 +20,11 @@ Microsoft has acknowledged the issue in the Experimental channel and stated that
 
 ### Before
 
-![Preview Pane stripe - before](before.png)
+![Reading Pane stripe - before](before.png)
 
 ### After
 
-![Preview Pane stripe - after](after.png)
+![Reading Pane stripe - after](after.png)
 
 ## The workaround
 
@@ -33,8 +35,12 @@ Once Microsoft fixes the underlying bug, the mod should be disabled or removed.
 
 ## Installation
 
-1. Install the mod in Windhawk and compile it.
-2. **Completely restart `explorer.exe` before opening File Explorer again.**
+This is a **Windhawk mod**.
+
+1. Install [Windhawk](https://windhawk.net/).
+2. Open Windhawk and install the mod from the source code in `readingpane-stripe-removal.cpp`.
+3. Compile and enable the mod.
+4. **Completely restart `explorer.exe` before opening File Explorer again.**
 
 ### PowerShell
 
@@ -43,7 +49,7 @@ Run:
 ```powershell
 Stop-Process -Name explorer -Force
 Start-Process explorer.exe
-```
+````
 
 ### Task Manager
 
@@ -65,7 +71,5 @@ The Explorer restart is important because the affected DirectUI/Preview Pane sta
 
 The workaround is intended for Windows 11 Insider builds affected by this bug.
 The implementation uses internal `DUI70.dll` addresses and structure offsets, so compatibility with other Windows builds is not guaranteed.
-
-```
 
 ```
