@@ -18,11 +18,11 @@ Microsoft has acknowledged the issue in the Experimental channel and stated that
 
 ### Before
 
-![Reading Pane stripe - before](before.png)
+![Reading Pane stripe - before](Before.jpg)
 
 ### After
 
-![Reading Pane stripe - after](after.png)
+![Reading Pane stripe - after](After.jpg)
 
 ## The workaround
 
